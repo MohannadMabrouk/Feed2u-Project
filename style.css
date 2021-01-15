@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  color: rebeccapurple;
+}
+img {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10%;
+}
+
+.navlist {
+  list-style: none;
+}
+
+.navlist li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navlist li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navlist li a:hover {
+  color: red;
+}
+
+.carousel-item {
+  height: 30rem;
+  background: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
